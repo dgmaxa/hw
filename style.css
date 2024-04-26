@@ -1,9 +1,24 @@
 .header {
-    background-color: blue;
+    background-color: #1064c4;
     color: white;
     text-align: center;
     font-family: 'Optima', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
   }
-
+  .profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .profile-photo {
+    width: 200px; /* Set the width of your image */
+    margin-left: 100px; /* Add some space between the image and the text */
+    margin-right: 100px; /* Add some space between the image and the text */
+  }
+  
+  .about-me {
+    max-width: 600px; /* Set a maximum width for your text */
+  }
+  
   
