@@ -1,8 +1,10 @@
-.header h1 {
+.header {
     background-color: blue;
     color: white;
-    font-family: 'Optima';
-    font-size: 48px;
     text-align: center;
+    font-family: 'Optima', sans-serif;
+    font-size: 40px;
+    padding: .1px 0; /* Increase the top and bottom padding */
   }
+
   
