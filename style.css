@@ -12,14 +12,26 @@
   }
   
   .profile-photo {
-    width: 300px; /* Set the width of your image */
-    margin-left: 200px; /* Add some space between the image and the text */
+    width: 350px; /* Set the width of your image */
+    margin-left: 250px; /* Add some space between the image and the text */
     margin-right: 50px; /* Add some space between the image and the text */
   }
   
   .about-me {
-    max-width: 500px; /* Set a maximum width for your text */
+    max-width: 550px; /* Set a maximum width for your text */
     font-size: 20px;
   }
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .quick-facts-section,
+  .learn-more-section {
+    flex: 1;
+  }
+  
+  
+  
   
   
