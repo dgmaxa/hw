@@ -13,12 +13,12 @@
   
   .profile-photo {
     width: 200px; /* Set the width of your image */
-    margin-left: 100px; /* Add some space between the image and the text */
-    margin-right: 100px; /* Add some space between the image and the text */
+    margin-left: 150px; /* Add some space between the image and the text */
+    margin-right: 150px; /* Add some space between the image and the text */
   }
   
   .about-me {
-    max-width: 600px; /* Set a maximum width for your text */
+    max-width: 500px; /* Set a maximum width for your text */
   }
   
   
