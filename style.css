@@ -3,7 +3,7 @@
     color: white;
     text-align: center;
     font-family: 'Optima', sans-serif;
-    font-size: 30px;
+    font-size: 36px;
   }
   .profile-section {
     display: flex;
@@ -13,8 +13,8 @@
   
   .profile-photo {
     width: 300px; /* Set the width of your image */
-    margin-left: 150px; /* Add some space between the image and the text */
-    margin-right: 150px; /* Add some space between the image and the text */
+    margin-left: 200px; /* Add some space between the image and the text */
+    margin-right: 100px; /* Add some space between the image and the text */
   }
   
   .about-me {
