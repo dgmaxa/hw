@@ -3,34 +3,76 @@
     color: white;
     text-align: center;
     font-family: 'Optima', sans-serif;
-    font-size: 36px;
+    font-size:40px;
+    padding: .5px 0; 
   }
+  
   .profile-section {
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: start; 
   }
   
   .profile-photo {
-    width: 350px; /* Set the width of your image */
-    margin-left: 250px; /* Add some space between the image and the text */
+    margin-left: 160px;
+    width: 320px; /* Set the width of your image */
+    border-radius: 50%; /* Makes the image round */
     margin-right: 50px; /* Add some space between the image and the text */
   }
   
   .about-me {
-    max-width: 550px; /* Set a maximum width for your text */
-    font-size: 20px;
+    max-width: 800px; /* Set a maximum width for your text */
+    font-size: 24px;
   }
+  
   .container {
     display: flex;
     justify-content: space-between;
+    margin: 20px 0; /* Adds margin above and below the container */
   }
   
   .quick-facts-section,
-  .learn-more-section {
+  .learn-more-about-me-section {
+    display: flex;
+    flex-direction: column;
+    align-items: startcenter; /* Centers the content */
     flex: 1;
   }
   
+  .fact, .learn-more {
+    display: flex;
+    align-items: center;
+  }
+  
+  .info-icon {
+    width: 50px; /* Set the width of your icons */
+    margin-right: 10px; /* Add some space between the icon and the text */
+  }
+  
+  /* Adjustments to ensure everything is centered within each section */
+  .quick-facts-section {
+    align-items: flex  flex-start; /* Aligns the quick facts to the start of the flex container */
+  }
+  
+  .learn-more-about-me-section {
+    align-items: flex-start; /* Aligns the learn more section to the start of the flex container */
+  }
+  .fact p,
+.learn-more p {
+    font-size: 18px; /* Adjust the size as needed */
+}
+.quick-facts-section {
+    margin-left: 250px; /* Adjust this value as needed to push away from the border */
+    align-items: flex-start; /* Aligns the quick facts to the start of the flex container */
+  }
+  
+  .learn-more-about-me-section {
+    padding-left: 150px;
+    padding-right: 50px; /* Adjust this value as needed to visually match the Quick Facts section */
+    align-items: flex-start; /* Aligns the learn more section to the start of the flex container */
+  }
+  
+
   
   
   
