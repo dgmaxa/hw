@@ -71,7 +71,107 @@
     padding-right: 50px; /* Adjust this value as needed to visually match the Quick Facts section */
     align-items: flex-start; /* Aligns the learn more section to the start of the flex container */
   }
-  
+  .header {
+    background-color: #1064c4;
+    color: white;
+    text-align: center;
+    padding: 0px 0;
+}
+
+.experience-list {
+    margin: 50px;
+}
+
+.experience-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px; /* Space between items */
+    margin-top: 50px;
+}
+
+.experience-logo {
+    width: 150px; /* Adjust as needed */
+    margin-right: 140px;
+    margin-left: 400px;
+}
+
+hr {
+    border: none;
+    height: 10px;
+    background-color: #ccc;
+    margin: 10px 0;
+}
+.echo-five-logo {
+    width: 230px; /* Adjust this value to the size you want for this logo */
+    margin-right: 80px;
+    margin-left: 380px;
+}
+.experience-item h2 {
+    margin-bottom: .1em; /* Adjust the space below the title */
+    font-size: 22px;
+}
+
+.experience-item p:first-of-type {
+    margin-top: .1em; /* Adjust the space above the first line of the description */
+    font-size: 20px;
+}
+.interests-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.interests-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px; /* Space between items */
+}
+
+.interests-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.interests-logo {
+    width: 500px;
+    flex: 0 0 150px; /* Don't grow, don't shrink, start at 150px width */
+    margin: 0 30px; /* Adjust the space between the image and the text */
+    max-width: 100%; /* To ensure it's responsive */
+    height: auto;
+}
+
+.description {
+    flex: 1; /* Allows the description to grow and fill the remaining space */
+    text-align: left; /* Aligns text to the left */
+    font-size: 40px;
+}
+
+@media (max-width: 768px) {
+    .interests-item {
+        flex-direction: column !important; /* Stacks image and text on small screens */
+    }
+    .interests-logo {
+        margin-bottom: 20px; /* Adds space between the image and text on small screens */
+    }
+    .description {
+        text-align: center; /* Centers text on small screens */
+    }
+}
+/* Adjust the bottom margin of the titles */
+.interests-item h2 {
+    margin-bottom: 0.5em; /* Reduce the bottom margin to bring the title closer to the text below */
+    /* Other styling for h2 */
+}
+
+/* If the first paragraph after the h2 has a top margin, you may want to reduce or remove it */
+.interests-item p:first-of-type {
+    margin-top: 0; /* Removes any top margin from the first paragraph */
+    /* Other styling for p */
+}
+
 
   
   
